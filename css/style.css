@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #800000;
+}
+.card{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: auto;
+	height: 1000px;
+}
+.card-content{
+	position: relative;
+	padding: 10px;
+	height:350px;
+	width: 250px;
+	background-color: white;
+    margin:  10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    webkit-transition: all 1s; /* Safari prior 6.1 */
+   transition: all 1s;
+}
+.card-content:hover .item-card{
+display: block;
+}
+.card-content:hover {
+transform: scale(1.1, 1.1);
+}
+.item-card{
+	background-color: black;
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+    webkit-transition: all 3s; /* Safari prior 6.1 */
+    transition: all 3s;
+	z-index: 1;
+    text-align: center;
+	margin: 0px;
+	display: none;	
+}
+.imagen{
+   background-color:#008080;
+	width: 100%;
+	height: 60%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0px;
+}
+.imagen img{
+	width: 100%;
+	height: 100;
+}
+h1{
+	text-align:center;
+	font-size: 55px;
+	color: #fff;
+	padding:15px;
+	background-color: #000;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+h4{
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+	bottom:0;
+	left: 15px;
+	margin: 0px;
+}
+h2{
+color:#fff;
+	font-size: 30px;
+	position: absolute;
+	bottom:10;
+	left: 15px;
+     color:	#FF0000;
+	margin: 0px;	
+}
+a{	
+	color: #fff;
+	text-align: center;
+	margin:20px;
+	background-color: #000080;
+	text-decoration: none;
+	padding: 10px 5px;
+	font-size: 20px;
+	display: block;
+	
+}
+.nm{
+	width: 100%;
+	height: 27%;
+	background-color: green;
+	position: absolute;
+	left: 0;
+	bottom:0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction:column;
+}
+
+.nm h3{
+	margin:5px;
+	color: #fff;
+font-size:30px;
+}
